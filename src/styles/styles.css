@@ -1,0 +1,97 @@
+/*Header Styles*/
+.hdr{
+    width: 100%;
+    
+}
+.nav-text li a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+  
+}
+.hicons{
+    font-size: larger;
+    color: blue;
+}
+.hbg{
+    background-color:ghostwhite;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /* width: 100%; */
+}
+
+/*Banner Styles*/
+.bnr{
+    background-image: url(../Images/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    /* width: 100%; */
+    
+}
+.bnrtxt{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* About Styles*/
+
+.abtimg{
+    border-top:5px solid blue ;
+    border-left: 5px solid black;
+    /* border-bottom: 5px solid black; */
+    /* border-right: 5px solid blue; */
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 10px 10px lightblue;
+}
+.abttxt{
+    margin-top: 10px;
+    /* padding-top: 20px; */
+}
+.abtbg{
+    background-color: ghostwhite;
+   padding: 20px;
+}
+
+/* Services Styles*/
+.services{
+    background-color:ghostwhite;
+    margin-top: 10px;
+}
+.service-icon{
+    font-size: 50px;
+}
+
+/*Tour Styles*/
+.toursgrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+}
+.tourbg{
+    background-color: aliceblue;
+    /* width: 60%; */
+    
+}
+.tourbg img{
+    border-radius: 20px;
+    border-bottom: 5px solid blue;
+    border-top: 5px solid black;
+    height: 200px;
+    width: 250px;
+}
+.text{
+    border-radius: 5px;
+    position: absolute;
+    top: 190px;
+    right: 115px;
+   
+}
+.card{
+    height: 500px;
+    width: 400px;
+}
+    
